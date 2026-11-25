@@ -65,3 +65,9 @@ En rutas que dependen del <b>HTML</b> en relativas, se podria mostrar como ejemp
 
 <h3>$ABSOLUTAS</h3>
 Se utiliza este tipo de ruta para cargar recursos de otros servidores: Cuando usas imágenes, fuentes o estilos alojados en otro sitio web (por ejemplo, una imagen de Wikipedia), o también cuando se quiere llevar al usuario a otro sitio web (como Google, YouTube o una red social).
+
+<h3>$VISUAL STUDIO CODE</h3>
+<hr>
+Todo programador utiliza un programa para editar código, en nuestro caso utilizaremos el VISUAL STUDIO CODE propiedad de <b><i>Microsoft</i></b>
+
+[![My Skills](https://skillicons.dev/icons?i=vscode)](https://skillicons.dev)
