@@ -56,19 +56,12 @@ Etiqueta de apertura        Contenido          Etiqueta de cie
 
 <h2>RUTAS: RELATIVAS & ABSOLUTAS 📂</h2>
 <br>
+<h3>$RELATIVAS</h3>
 Las rutas informan donde se deben de ir a buscar los archivos. La diferencia entre uno y otro está en en el punto de partida.
 En rutas que dependen del <b>HTML</b> en relativas, se podria mostrar como ejemplo lo siguiente:<br>
 <b>mi-primera-WEB/imagenes/logo.png</b>              🌄<br>
 <b>mi-primera-WEB/sonidos/cancion-de-fondo</b>  🎵<br>
 <b>mi-primera-WEB/videos/video-fondo</b>             🎞️<br>
 
-
-
-**********************************************************
-**********************************************************
-SEO (SEARCH ENGINE OPTIMIZATION)
-*******************************
-La Optimización para motores de búsqueda, es lo que facilita a los navegadores a leer tu web de forma correcta al ser consultada (REQUEST).
-Detallar los <H1> y los <ARTICLE>, añadirle los ALT a las imágenes, permiten ordenar la web para que el SEO pueda entender la estructura.
-
-
+<h3>$ABSOLUTAS</h3>
+Se utiliza este tipo de ruta para cargar recursos de otros servidores: Cuando usas imágenes, fuentes o estilos alojados en otro sitio web (por ejemplo, una imagen de Wikipedia), o también cuando se quiere llevar al usuario a otro sitio web (como Google, YouTube o una red social).
