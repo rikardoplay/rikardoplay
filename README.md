@@ -63,8 +63,10 @@ En rutas que dependen del <b>HTML</b> en relativas, se podria mostrar como ejemp
 <b>mi-primera-WEB/videos/video-fondo</b>             🎞️<br>
 
 <h3>$ABSOLUTAS</h3>
-Se utiliza este tipo de ruta para cargar recursos de otros servidores: Cuando usas imágenes, fuentes o estilos alojados en otro sitio web (por ejemplo, una imagen de Wikipedia), o también cuando se quiere llevar al usuario a otro sitio web (como Google, YouTube o una red social). Ej:
-Ésto lleva al logo de GitHub <a href="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png">Logo de GitHub</a>
+Se utiliza este tipo de ruta para cargar recursos de otros servidores: Cuando usas imágenes, fuentes o estilos alojados en otro sitio web (por ejemplo, una imagen de Wikipedia), o también cuando se quiere llevar al usuario a otro sitio web (como Google, YouTube o una red social). Ej:<br>
+
+`Ésto lleva al logo de GitHub` <a href="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png" target="_blank">Logo de GitHub</a><br>
+`Ésto lleva a un video de Youtube` <a href="https://www.youtube.com/watch?v=X1iY_3hVXhA" target="_blank">Video de Los Simpsons</a>
 
 <h2>$SEO (SEARCH ENGINE OPTIMIZATION)</h2>
 
