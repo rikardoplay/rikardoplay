@@ -24,11 +24,11 @@
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/rikardoplay/rikardoplay/pacman-output/pacman-contribution-graph.svg?game=pacman">
 </picture>
 <div data-importer="border">
-  <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=cobalt"  />
+  <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=cobalt"/>
 </div>
 
 <h1 data-importer="text" align="left">#RESUMEN CLASES 📑</h1>
-<h2>CLASE 1: HTML FUNDAMENTOS</h2>
+<h2 align="center">CLASE 1:HTML FUNDAMENTOS</h2>
 
 Las webs se rigen por protocolo `HTTP (CLIENTE/SERVIDOR)`. Cuando el navegador pide un dominio <b>REQUEST</b> (Ejemplo <i>www.google.com</i>), el servidor responde y devuelve la web solicitada <b>[RESPONSE]</b> trayendo todo lo que ésta tiene: HTML, CSS, JAVA, etc.
 
@@ -42,7 +42,7 @@ FRAMEWORK como <b>ANGULAR</b>, es como una estructura pre-fabricada, trae todo p
 
 No es un lenguaje de programación matemático, es un lenguaje de etiquetas que define la estructura de una página. Una vez que el navegador lee las etiquetas, arma el `DOM` que es el <b><i>Modelo de Objetos del documento</i></b>, ésto forma el árbol que crea el navegador. Es como INTERPRETA el navegador el archivo del HTML (HEAD, BODY, FOOT), que es cada cosa.
 
-// NOTA: <i>CSSOM es lo mismo que el DOM, pero con CSS. El navegador interpreta color, estilos y demás retoques. Juntos forman el layout.</i>
+// ⭐ <i>CSSOM es lo mismo que el DOM, pero con CSS. El navegador interpreta color, estilos y demás retoques. Juntos forman el layout.</i>
 
 <h2>ETIQUETAS 🔖</h2>
 <br>
@@ -78,3 +78,29 @@ Todo `programador` utiliza un programa para editar código, en nuestro caso util
 
 [![My Skills](https://skillicons.dev/icons?i=vscode)](https://skillicons.dev)
 
+<img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=cobalt"  />
+</div>
+
+<h2 align="center">CLASE 2:GIT & GITHUB</h2>
+
+Antes que nada, GIT es una CLI (`COMMAND LIN INTERFACE`) o `INTERFACE DE LINEA DE COMANDOS` la cuál permite tener orden y control sobre las modificaciones que vayamos realizando dentro de nuestro código, por lo tanto, Git es un sistema de control de versiones. 
+Su función es la de simplificar el trabajo de un programador, y ayudar con el desarrollo del código de diversas maneras:<br>
+`Viajar en el tiempo`: Si rompes algo en tu código o documento, puedes volver a una versión anterior que funcionaba sin perder todo tu avance.
+
+`Experimentar sin miedo`: Puedes crear una copia paralela de tu proyecto para probar una idea nueva, ya sea agregar un boton, cambiar un color, etc. Si sale mal, la borras y tu proyecto original queda intacto. Si sale bien, la unes.
+
+`Trabajo en equipo ordenado`: Varias personas pueden editar el mismo proyecto al mismo tiempo. Git se encarga de unir los cambios de todos y te avisa si dos personas tocaron exactamente la misma línea.
+
+`Respaldo en la nube`: Al conectarlo con plataformas como GitHub o GitLab, tenes una copia de seguridad en internet y puedes seguir trabajando desde otra computadora.
+
+Cuando le pedimos a `GIT` que vigile una carpeta donde están todos los archivos de nuestra web <b>(html, css, java, imágenes, videos)</b> toda esa carpeta pasa a convertirse en `REPOSITORIO`. Dentro de ésta carpeta, se crea un carpeta oculta llamada `.git`, aquí es donde se guardará todo el historial de cambios.
+
+// ⭐ <i><b>GIY & GITHUB</b> son cosas diferentes. El primero es un programa local de `control de versiones`, el segundo es una `plataforma web` que aloja repositorios en la nube.</i> 👀 <b>NO CONFUNDIR!</b>☝️
+
+<h2>$COMANDOS GIT</h2>
+Una vez instalado procedemos a empezar a lanzar comandos en su consola.
+Corroboramos su instalación mediante el comando <b>git -v</b><br>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=1600&color=2FF72A&multiline=true&width=435&height=79&lines=MX_RODRIGUEZ%40Desktop~;git+-v;git+version+2.56.1+windows" alt="Typing SVG" /></a><br>
+<br>
+Ahora debemos de especificar un usuario para nuestro programa GIT, utilizamos el comando git ---global user.name `nombre`
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2000&color=2FF72A&multiline=true&width=523&height=60&lines=MX_RODRIGUEZ%40Desktop~;git+config+--global+user.name+%60MX_RODRIGUEZ%60;%C2%A0" alt="Typing SVG" /></a>
