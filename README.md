@@ -102,5 +102,14 @@ Una vez instalado procedemos a empezar a lanzar comandos en su consola.
 Corroboramos su instalación mediante el comando <b>git -v</b><br>
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=1600&color=2FF72A&multiline=true&width=435&height=79&lines=MX_RODRIGUEZ%40Desktop~;git+-v;git+version+2.56.1+windows" alt="Typing SVG" /></a><br>
 <br>
-Ahora debemos de especificar un usuario para nuestro programa GIT, utilizamos el comando git ---global user.name `nombre`
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2000&color=2FF72A&multiline=true&width=523&height=60&lines=MX_RODRIGUEZ%40Desktop~;git+config+--global+user.name+%60MX_RODRIGUEZ%60;%C2%A0" alt="Typing SVG" /></a>
+Ahora debemos de especificar un usuario para nuestro programa GIT, usamos el comando git ---global user.name `nombre`
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2000&color=2FF72A&multiline=true&width=510&height=76&lines=MX_RODRIGUEZ%40DESKTOP~;git+config+--global+user.name+%60TU+NOMBRE%60;%C2%A0" alt="Typing SVG" /></a><br>
+<br>
+Como la consola no nos devuelve una confirmación, debemos de chequear nosotros si se agregó el usuario, usamos el comando git --global user.name<br>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2000&color=2FF72A&multiline=true&width=523&height=76&lines=MX_RODRIGUEZ%40DESKTOP~;git+config+--global+user.name;TU+NOMBRE" alt="Typing SVG" /></a><br>
+<br>
+Una vez configurado el nombre, debemos configurar el correo, usamos el comando git --config global user.mail `tu@correo.com`<br>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2000&color=2FF72A&multiline=true&width=510&height=76&lines=MX_RODRIGUEZ%40DESKTOP~;git+config+--global+user.mail+%60tu%40correo%60;%C2%A0" alt="Typing SVG" /></a><br>
+<br>
+Al igual que el nombre, no tenemos una confirmación, chequeamos si agregó el correo, usamos git --global config user.mail<br>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2000&color=2FF72A&multiline=true&width=510&height=77&lines=MX_RODRIGUEZ%40DESKTOP~;git+config+--global+user.mail;tu%40correo.com" alt="Typing SVG" /></a>
