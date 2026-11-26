@@ -29,21 +29,20 @@
 
 <h1 data-importer="text" align="left">#RESUMEN CLASES 📑</h1>
 <h2>CLASE 1: HTML FUNDAMENTOS</h2>
-Las webs se rigen por protocolo <b><i>HTTP (CLIENTE/SERVIDOR)</i></b>. Cuando el navegador pide un dominio <b>REQUEST</b> (Ejemplo <i>www.google.com</i>), el servidor responde y devuelve la web solicitada <b>[RESPONSE]</b> trayendo todo lo que ésta tiene: HTML, CSS, JAVA, etc.
+
+Las webs se rigen por protocolo `HTTP (CLIENTE/SERVIDOR)`. Cuando el navegador pide un dominio <b>REQUEST</b> (Ejemplo <i>www.google.com</i>), el servidor responde y devuelve la web solicitada <b>[RESPONSE]</b> trayendo todo lo que ésta tiene: HTML, CSS, JAVA, etc.
 
 <h2>LIBRERIA 📚​ ​vs FRAMEWORK 🛠️</h2>
-<br>
-Una librería como <b>REACT</b> es como una caja de herramientas ultra precisas que te permite construir interfaz de usuario (UI: USER INTERFACE),pero tu decides que colocar, que poner, tienes el control total.
+
+Una librería como `REACT` es como una caja de herramientas ultra precisas que te permite construir interfaz de usuario (UI: USER INTERFACE),pero tu decides que colocar, que poner, tienes el control total.
 
 FRAMEWORK como <b>ANGULAR</b>, es como una estructura pre-fabricada, trae todo para poner en funcionamiento la web pero se debe aprender muchas reglas puras y exclusivas de ese FRAMEWORK
 
 <h2>HTML 📄</h2>
-<br>
-No es un lenguaje de programación matemático, es un lenguaje de etiquetas
 
-DOM en HTML es (Modelo de Objetos del documento) es la representación en forma de árbol que crea el navegador. Es como INTERPRETA el navegador el archivo del HTML (HEAD, BODY, FOOT), que es cada cosa.
+No es un lenguaje de programación matemático, es un lenguaje de etiquetas que define la estructura de una página. Una vez que el navegador lee las etiquetas, arma el `DOM` que es el <b><i>Modelo de Objetos del documento</i></b>, ésto forma el árbol que crea el navegador. Es como INTERPRETA el navegador el archivo del HTML (HEAD, BODY, FOOT), que es cada cosa.
 
-CSSOM es lo mismo que el DOM, pero con CSS. El navegador interpreta color, estilos y demás retoques. Juntos forman el layout.
+// NOTA: <i>CSSOM es lo mismo que el DOM, pero con CSS. El navegador interpreta color, estilos y demás retoques. Juntos forman el layout.</i>
 
 <h2>ETIQUETAS 🔖</h2>
 <br>
@@ -66,8 +65,13 @@ En rutas que dependen del <b>HTML</b> en relativas, se podria mostrar como ejemp
 <h3>$ABSOLUTAS</h3>
 Se utiliza este tipo de ruta para cargar recursos de otros servidores: Cuando usas imágenes, fuentes o estilos alojados en otro sitio web (por ejemplo, una imagen de Wikipedia), o también cuando se quiere llevar al usuario a otro sitio web (como Google, YouTube o una red social).
 
-<h3>$VISUAL STUDIO CODE</h3>
-<hr>
-Todo programador utiliza un programa para editar código, en nuestro caso utilizaremos el VISUAL STUDIO CODE propiedad de <b><i>Microsoft</i></b>
+<h2>$SEO (SEARCH ENGINE OPTIMIZATION)</h2>
+
+El SEO u `Optimización para motores de búsqueda` consiste en escribir y estructurar el código, la arquitectura y la configuración de una aplicación o sitio web para que los buscadores puedan rastrearlo, entenderlo e indexarlo mejor
+
+<h2>$VISUAL STUDIO CODE</h2>
+
+Todo `programador` utiliza un programa para editar código, en nuestro caso utilizaremos el VISUAL STUDIO CODE propiedad de <b><i>Microsoft</i></b>
 
 [![My Skills](https://skillicons.dev/icons?i=vscode)](https://skillicons.dev)
+
