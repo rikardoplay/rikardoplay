@@ -112,4 +112,39 @@ Una vez configurado el nombre, debemos configurar el correo, usamos el comando g
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2000&color=2FF72A&multiline=true&width=510&height=76&lines=MX_RODRIGUEZ%40DESKTOP~;git+config+--global+user.mail+%60tu%40correo%60;%C2%A0" alt="Typing SVG" /></a><br>
 <br>
 Al igual que el nombre, no tenemos una confirmación, chequeamos si agregó el correo, usamos git --global config user.mail<br>
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2000&color=2FF72A&multiline=true&width=510&height=77&lines=MX_RODRIGUEZ%40DESKTOP~;git+config+--global+user.mail;tu%40correo.com" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2000&color=2FF72A&multiline=true&width=510&height=77&lines=MX_RODRIGUEZ%40DESKTOP~;git+config+--global+user.mail;tu%40correo.com" alt="Typing SVG" /></a><br>
+<br>
+
+Comenzamos creando el repositorio `Git` en nuestra carpeta de proyecto, usamos comando git init
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=1800&pause=500&color=06F721&multiline=true&width=435&height=80&lines=MX_RODRIGUEZ%40Desktop~;git+init;Initialized+empty+Git+in+C%3A%2F%2F........" alt="Typing SVG" /></a><br>
+<br>
+<h2>$ESTADOS DE GIT</h2>
+
+Los archivos que trabajaremos con Git pueden tener diferentes `estados`, y cada estado representa acciones que podemos realizar con el comando adecuado:<br>
+`UNTRACKED`  ➡️ <i>Archivo sin seguimiento</i><br>
+`STAGIN AREA`➡️ <i>Archivos listos para ser añadidos</i><br>
+`COMMIT AREA`➡️ <i>Archivos commiteados</i>
+
+Se puede omitir el seguimiento de un determinado archivo, suele usarse para aquellos que guardan información sensible como configuraciones o claves privadas. Para hacer ésto se crea un archivo llamado `.gitignore` y dentro de este, se agregan los archivos que queremos que sean omitidos por el seguimiento. Ej:<br>
+🔹📁 <b>Primer proyecto</b><br>
+    ⚙️.gitignore<br>
+    📄contraseña.txt<br>
+    📄contactos.docx<br>
+    📄clientes.xls
+
+Dentro del archivo `.gitignore` especificamos el nombre del archivo a ignorar:<br>
+⚙️.gitignore <br>
+       │1 contraseña.txt<br>
+Una vez especificado los archivos sin seguimiento, es hora de agregarlos al `STAGE AREA`, usamos el comando `git add .`<br>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=1800&pause=500&color=06F721&multiline=true&width=435&height=58&lines=MX_RODRIGUEZ%40Desktop~;git+add+." alt="Typing SVG" /></a><br>
+Ya tenemos todos nuestros archivos con seguimiento agregados 😎<br>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=1400&pause=500&color=00F71C&multiline=true&width=435&height=130&lines=MX_RODRIGUEZ%40Desktop~;git+add+.;.gitignore;contactos.docx;clientes.xls" alt="Typing SVG" /></a><br>
+Hora de commitearlos 💪<br>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=1500&pause=500&color=00F71C&multiline=true&width=435&height=60&lines=MX_RODRIGUEZ%40Desktop~;git+commit+-m+%22Mi+primer+commit%22" alt="Typing SVG" /></a><br>
+
+<h2>$GITHUB</h2>
+
+Es hora de subir nuestro repositorio local a la plataforma web. Deberemos de crear un usuario en `https://github.com/` y posteriormente conectarlo a nuestro repositorio local en la pc.
+![](https://ibb.co/k6s98jR9)
+
+
