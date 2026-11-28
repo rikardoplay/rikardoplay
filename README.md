@@ -166,6 +166,14 @@ Si queremos verificar la conectividad de nuestro repositorio en github, usamos c
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=1500&pause=500&color=00F71C&multiline=true&width=650&height=110&lines=MX_RODRIGUEZ%40Desktop~;git+remote+-v;origin+https%3A%2F%2Fgithub.com%2Fusuario%2Frepositorio1+%28fetch%29;origin+https%3A%2F%2Fgithub.com%2Fusuario%2Frepositorio1+%28push%29" alt="Typing SVG" /></a><br>
 Como podemos notar, la consola nos arroja el `FETCH` y el `PUSH`. Con el fetch, indicamos la dirección del repositorio que queremos <b><i>"traer información"</i></b>. Normalmente se lo usa en equipos de trabajo donde algien sube algun cambio y uno desea traerlo para visualizar esa modificación antes de anexarlo a su propio proyecto.<br>
 Cuando realizamos el push, es para `"SUBIR"` los cambios que ya hemos guardado en nuestro repositorio local a travez del `git commit`.<br>
-Previamente se debe de establecer la rama principal donde se conectaran los commit de manera automatica especificando con el comando `git push -u origin main`. Una ves hagamos ésto, los git push seran subidos a esa ruta anteriormente establecida.
+Previamente se debe de establecer la rama principal donde se conectaran los commit de manera automatica especificando con el comando `git push -u origin main`. Una ves hagamos ésto, los git push serán subidos a esa ruta anteriormente establecida.
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=1500&pause=500&color=00F71C&multiline=true&width=280&height=60&lines=MX_RODRIGUEZ%40Desktop~;git+push+-u+origin+main" alt="Typing SVG" /></a><br>
-Al enviar el comando por primera vez, nos pedirá inicar sesión en GitHub con nuestra cuenta para establecer la conección con el repositorio creado. Es importante que se le de todos los permisos que sean requeridos que aparescan en pantalla, para que dicha conexión sea efectiva.
+Al enviar el comando por primera vez, nos pedirá iniciar sesión en GitHub con nuestra cuenta para establecer la conexión con el repositorio creado. Es importante que se le de todos los permisos que sean requeridos que aparezcan en pantalla, para que dicha conexión sea efectiva.<br>
+
+<h2>$GIT PAGES</h2>
+
+GitHub posee una herramienta para visualizar nuestro archivo `INDEX` y ver el diseño de nuestra página, para realizar esto, nos dirigimos a SETTING/Pages (ubicado en el menú lateral izquierdo)/Dentro del Menú Branch desplegamos la flechita donde se encuentra el `None` y seleccionamos `main` y clicleamos en `SAVE`. Al hacer ésto, GitHub nos devolverá un link url donde podremos visualizar nuestro arhivo index 😎<br>
+
+<h2 align="center">CLASE 4: HTML</h2>
+
+
