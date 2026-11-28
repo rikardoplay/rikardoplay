@@ -144,7 +144,28 @@ Hora de commitearlos 💪<br>
 
 <h2>$GITHUB</h2>
 
-Es hora de subir nuestro repositorio local a la plataforma web. Deberemos de crear un usuario en `https://github.com/` y posteriormente conectarlo a nuestro repositorio local en la pc.
-![](https://ibb.co/k6s98jR9)
+Es hora de subir nuestro repositorio local a la plataforma web. Deberemos de crear un usuario en `https://github.com/` y posteriormente 
+conectarlo a nuestro repositorio local en la pc.
+<p align="left">
+  <img src="https://i.ibb.co/XrQcdhdf/github-cuenta.jpg" alt="Menu de github" style="float: left; margin-left: 12px;" />
+</p><br>
+Creación de repositorio.Todo repositorio creado nos dará un link para acceder al mismo, ese link será usado luego para coctar el enlace<br>
+<p align="left">
+  <img src="https://i.ibb.co/nMJnG2Kx/MENU-DE-GITHUB-editado.jpg" alt="Menu de github" style="float: left; margin-left: 12px;" />
+</p><br>
+Teniendo nuestro repositorio ya creado, es hora de conectarlo con nuestros archivos locales. Previamente, debemos de renombrar la rama maestra de nuestro git. Actualmente se llama `master`, debemos renombrarla por `main`. usamos comando git branch -M main
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=1500&pause=500&color=00F71C&multiline=true&width=650&height=60&lines=MX_RODRIGUEZ%40Desktop~;git+remote+add+origin+https%3A%2F%2Fgithub.com%2Fusuario%2Fxxxx" alt="Typing SVG" /></a><br>
+
+// ⭐ <i>¿Porque se renombra de `master` a `main`?</i> Se busca tener comandos y lenguajes neutros, es por eso que renombramos.
 
 
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=1500&pause=500&color=00F71C&multiline=true&width=435&height=60&lines=MX_RODRIGUEZ%40Desktop~;git+branch+-M+main" alt="Typing SVG" /></a><br>
+Ahora conectamos nuestros repositorios, utilizamos comando git remote add origin `"dirección de repositorio"`<br>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=1500&pause=500&color=00F71C&multiline=true&width=650&height=60&lines=MX_RODRIGUEZ%40Desktop~;git+remote+add+origin+https%3A%2F%2Fgithub.com%2Fusuario%2Fxxxx" alt="Typing SVG" /></a><br>
+Si queremos verificar la conectividad de nuestro repositorio en github, usamos comando git remote<br>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=1500&pause=500&color=00F71C&multiline=true&width=650&height=110&lines=MX_RODRIGUEZ%40Desktop~;git+remote+-v;origin+https%3A%2F%2Fgithub.com%2Fusuario%2Frepositorio1+%28fetch%29;origin+https%3A%2F%2Fgithub.com%2Fusuario%2Frepositorio1+%28push%29" alt="Typing SVG" /></a><br>
+Como podemos notar, la consola nos arroja el `FETCH` y el `PUSH`. Con el fetch, indicamos la dirección del repositorio que queremos <b><i>"traer información"</i></b>. Normalmente se lo usa en equipos de trabajo donde algien sube algun cambio y uno desea traerlo para visualizar esa modificación antes de anexarlo a su propio proyecto.<br>
+Cuando realizamos el push, es para `"SUBIR"` los cambios que ya hemos guardado en nuestro repositorio local a travez del `git commit`.<br>
+Previamente se debe de establecer la rama principal donde se conectaran los commit de manera automatica especificando con el comando `git push -u origin main`. Una ves hagamos ésto, los git push seran subidos a esa ruta anteriormente establecida.
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=1500&pause=500&color=00F71C&multiline=true&width=280&height=60&lines=MX_RODRIGUEZ%40Desktop~;git+push+-u+origin+main" alt="Typing SVG" /></a><br>
+Al enviar el comando por primera vez, nos pedirá inicar sesión en GitHub con nuestra cuenta para establecer la conección con el repositorio creado. Es importante que se le de todos los permisos que sean requeridos que aparescan en pantalla, para que dicha conexión sea efectiva.
